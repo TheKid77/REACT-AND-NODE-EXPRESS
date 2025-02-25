@@ -3,6 +3,11 @@
     "dev": "concurrently \"npm run dev --prefix frontend\" \"node backend/index.js\""
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.1.2",
+    "prettier": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4"
   }
 }
